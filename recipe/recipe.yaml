@@ -1,5 +1,5 @@
 context:
-  version: 29.7.0
+  version: "30.0.2"
 
 package:
   name: create-jest
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://registry.npmjs.org/create-jest/-/create-jest-${{ version }}.tgz
-  sha256: cd4bb8324d6f5e1c6a64db43ea25b839705bf579210410b3b4280ea1f4cb7159
+  sha256: b43ad306de153e08f421960fd895da43b2d0dd56fc3b636ff04a6d0c53c5aa85
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
 requirements:
